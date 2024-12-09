@@ -1,0 +1,12 @@
+/* solution.css */
+.parent {
+  width: 300px;
+  padding: 10px;
+  border: 5px solid black;
+}
+
+.child {
+  width: calc(100% - 20px - 10px); /* Subtract padding and border */
+  background-color: lightblue;
+}
+/* Subtract twice the padding (10px each side) and twice the border (5px each side) from 100% */
